@@ -2,12 +2,12 @@
 
 ### Installation
  Open terminal and add : 
-1- npm init -y
-2- npm install express
-3- node .
+- npm init -y
+- npm install express
+- node .
 
-###Then
-then you can add this link in postman : http://localhost:8080/100000000000000/-100000000000000
+### Then
+-you can add this link in postman : http://localhost:8080/100000000000000/-100000000000000
 
 ### Dependencies
 - I used Node.js , Express.js
