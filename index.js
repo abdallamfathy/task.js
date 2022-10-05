@@ -16,8 +16,8 @@ app.get("/" , (req, res) => {
 
 app.get("/:num1/:num2" , (req, res) => {
     
-    let num1 = Number(req.params.num1);
-    let num2 = Number(req.params.num2);
+    let num1 = parseInt(req.params.num1);
+    let num2 = parseInt(req.params.num2);
 
 
     res.status(200).send({
