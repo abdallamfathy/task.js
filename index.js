@@ -1,10 +1,19 @@
 const app = require("express")();
-const PORT = 8080;
+const PORT = 5050;
 
 app.listen(
     PORT,
     () => console.log(`it's alive on http://localhost:${PORT}`)
 )
+app.get("/" , (req, res) => {
+    
+    res.status(200).send({
+
+     hello:"please add numbers in url"      
+        
+    });
+})
+
 app.get("/:num1/:num2" , (req, res) => {
     
     let num1 = Number(req.params.num1);
@@ -21,3 +30,6 @@ app.get("/:num1/:num2" , (req, res) => {
         
     })
 })
+
+// Export the Express API
+module.exports = app;
