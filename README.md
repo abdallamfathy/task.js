@@ -1,5 +1,11 @@
 # task.js
 
+
+### Easy access
+- Just add this link in url or postman : https://taskjs.vercel.app/100000000000000/-100000000000000
+
+### OR 
+
 ### Installation
  Open terminal and add : 
 - npm init -y
